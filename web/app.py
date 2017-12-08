@@ -10,4 +10,5 @@ def hello():
     return 'Hello World! I have been seen %s times.' % redis.get('hits')
 
 if __name__ == "__main__":
+    print("hello, hello!!!")
     app.run(host="0.0.0.0", debug=True)
