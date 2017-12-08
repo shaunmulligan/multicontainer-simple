@@ -6,11 +6,3 @@ services:
   test:
     build: ./test
     expose: 5000
-    restart: no
-
-#     depends_on:
-#      - redis
-#   redis:
-#     image: arm32v7/redis
-#     ports:
-#      - "6379:6379"
