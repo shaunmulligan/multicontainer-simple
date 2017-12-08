@@ -6,6 +6,7 @@ services:
   test:
     build: ./test
     expose: 5000
+    restart: no
 
 #     depends_on:
 #      - redis
