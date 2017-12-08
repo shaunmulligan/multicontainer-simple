@@ -5,11 +5,9 @@ services:
     expose: 5000
     ports:
       - "5000:5000"
-  web:
+  web2:
     build: ./web
 
-#   web2:
-#     build: ./web
 #     depends_on:
 #      - redis
 #   redis:
