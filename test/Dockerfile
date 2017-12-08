@@ -1,5 +1,7 @@
 FROM resin/raspberrypi3-python:3.5.4-slim
-ADD . /usr/src/app
 WORKDIR /usr/src/app
-RUN pip install -r requirements.txt
+COPY requirements.txt .
+RUN pip install -r requirements.txt 
+
+COPY . .
 CMD python app.py
