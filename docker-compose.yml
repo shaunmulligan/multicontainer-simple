@@ -6,7 +6,7 @@ services:
     ports:
       - "5000:5000"
   test:
-    build: ./web
+    build: ./test
 
 #     depends_on:
 #      - redis
