@@ -5,7 +5,7 @@ services:
     expose: 5000
     ports:
       - "5000:5000"
-  web2:
+  test:
     build: ./web
 
 #     depends_on:
